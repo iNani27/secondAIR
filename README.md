@@ -10,4 +10,8 @@ Table de vocabulaire
 	
 	
 	
-## gemmes les pierres précieuses
+## Gemmes les pierres précieuses
+### HTML 
+figure, figcaption 
+### CSS 
+responsive
