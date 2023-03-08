@@ -1,12 +1,12 @@
 # secondAIR
 
 ## Table de vocabulaire interactive
--> 1 clic fait apparaître la réponse
-...
--> 1 double clic fait disparaître la ligne apprise
-...
+.1 clic fait apparaître la réponse.
+.1 double clic fait disparaître la ligne apprise.
+
+
 [Table de vocabulaire](https://inani27.github.io/secondAIR/)
-...
+
 
 ### HTML 
 Table de vocabulaire 
@@ -21,6 +21,6 @@ Table de vocabulaire
 figure, figcaption 
 ### CSS 
 responsive
-...
+
 
 [Gemmes](https://inani27.github.io/secondAIR/Gemmes)
