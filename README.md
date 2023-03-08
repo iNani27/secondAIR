@@ -10,4 +10,4 @@ Table de vocabulaire
 	
 	
 	
-## Page sur les pierres précieuses
+## gemmes les pierres précieuses
