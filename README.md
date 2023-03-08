@@ -2,6 +2,7 @@
 
 ## Table de vocabulaire interactive
 .1 clic fait apparaître la réponse.
+
 .1 double clic fait disparaître la ligne apprise.
 
 
