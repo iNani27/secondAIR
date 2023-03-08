@@ -4,7 +4,7 @@ footer{
     padding: 2em 0.1em;
 }
 footer img{
-    width:12%;
+    width:7%;
 }
 
 /* DESKTOP */
@@ -36,7 +36,7 @@ figure {
 
     border-bottom : 1px grey solid;
     padding : 0.5em;
-    /* display: inline-block;*/
+    
 
 }
 img {
