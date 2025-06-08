@@ -1,5 +1,9 @@
 # secondAIR
 
+## Biologie - 4 ième secondaire
+[Mitose_vs._Meiose](https://inani27.github.io/secondAIR/sciences-4A/Mitose_vs._Meiose.html)
+[génétique, exercices interactifs](https://inani27.github.io/secondAIR/sciences-4A/exercices_genetique.html)
+
 ## Table de vocabulaire interactive
 .1 clic fait apparaître la réponse.
 
