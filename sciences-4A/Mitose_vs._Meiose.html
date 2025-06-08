@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mitose vs Méiose</title>
+                <meta name="description" content="Biologie - exercices sur l'évolution - Belgique - 4/6 ">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Genetique, ADN, homozygote, hétérozygote, gamète, dominant, recessif">
+        <meta name="author" content="Isabelle NANI 2025">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 20px;
+                background: #f4f4f4;
+                color: #333;
+            }
+            h1, h2 {
+                color: #2c3e50;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            th, td {
+                border: 1px solid #aaa;
+                padding: 10px;
+                text-align: center;
+            }
+            th {
+                background-color: #ecf0f1;
+            }
+            .section {
+                background: white;
+                padding: 20px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            .emoji {
+                font-size: 1.5em;
+            }
+            #printBtn {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background-color: #1abc9c;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 10px;
+                font-size: 16px;
+                cursor: pointer;
+                z-index: 9999;
+            }
+            @media print {
+                #printBtn, button.show-answer {
+                    display: none;
+                }
+                .correction, .quiz-answer {
+                    display: block !important;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <button id="printBtn" onclick="window.print()">🖨️ Imprimer / Exporter en PDF</button>
+        
+        <div class="section">
+            <h1>Mitose vs. Méiose</h1>
+        </div>
+
+        <div class="section">
+            <h2 class="emoji">🧬 La mitose</h2>
+            <p><strong>C’est quoi ?</strong> La mitose est le processus par lequel nos cellules se copient à l’identique. C’est comme créer un clone parfait.</p>
+            <p><strong>Pourquoi ?</strong> Pour grandir, réparer les blessures ou remplacer les cellules mortes.</p>
+            <p><strong>Combien de cellules ?</strong> Une cellule donne 2 cellules identiques avec 46 chromosomes chacune.</p>
+            <p><strong>Exemple :</strong> La réparation de la peau après une coupure.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="emoji">🔬 La méiose</h2>
+            <p><strong>C’est quoi ?</strong> C’est un processus qui crée les cellules sexuelles (spermatozoïdes et ovules).</p>
+            <p><strong>Pourquoi ?</strong> Pour la reproduction.</p>
+            <p><strong>Combien de cellules ?</strong> Une cellule donne 4 cellules différentes avec 23 chromosomes chacune.</p>
+            <p><strong>Ce qui est cool :</strong> Chaque cellule est unique – c’est pourquoi les enfants ne sont pas identiques à leurs parents.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="emoji">🧪 Résumé facile</h2>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Mitose</th>
+                    <th>Méiose</th>
+                </tr>
+                <tr>
+                    <td>Nombre de cellules</td>
+                    <td>2 cellules identiques</td>
+                    <td>4 cellules différentes</td>
+                </tr>
+                <tr>
+                    <td>Chromosomes</td>
+                    <td>46 (même nombre)</td>
+                    <td>23 (moitié)</td>
+                </tr>
+                <tr>
+                    <td>Utilité</td>
+                    <td>Croissance, réparation</td>
+                    <td>Reproduction</td>
+                </tr>
+                <tr>
+                    <td>Où ?</td>
+                    <td>Partout dans le corps</td>
+                    <td>Testicules / ovaires</td>
+                </tr>
+                <tr>
+                    <td>Produit</td>
+                    <td>Cellules normales</td>
+                    <td>Ovules ou spermatozoïdes</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>🔍 Analyse d’un graphe</h2>
+            <p><strong>Question :</strong> Un graphe montre une montée de q à 2q, puis redescend à q, et enfin à q/2. S'agit-il de mitose ou méiose ?</p>
+            <img src="meiose.jpg" alt="Graphe Méiose"  width='650'>
+            <p><strong>Réponse :</strong> Il s'agit de la <strong>méiose</strong>.</p>
+            <p><strong>Pourquoi ?</strong> Deux divisions sont observées. À la fin, chaque cellule fille a q/2 d’ADN (typique des gamètes).</p>
+            <p><strong>Résultat :</strong> 4 cellules filles, toutes différentes, avec 23 chromosomes chacune.</p>
+        </div>
+        <div>
+            <p>Et voici celle pendant la <strong>mitose</strong> :</p>
+            <img src="mitose.jpg" alt="Graphe Mitose" width='650'>
+        </div>
+        <div>
+            <p>
+                Télécharger le support en <a href="mitose_vs_meiose.docx" target='_blank' title="mitose_vs_meiose.docx">Word</a> ou <a href="mitose_vs_meiose.pdf" target='_blank' title="mitose_vs_meiose.pdf">PDF</a>.
+            </p>
+        </div>
+
+
+    </body>
+</html>
