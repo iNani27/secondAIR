@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+         <meta name="description" content="Biologie - exercices sur l'évolution - Belgique - 4/6 ">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Genetique, ADN, homozygote, hétérozygote, gamète, dominant, recessif">
+        <meta name="author" content="Isabelle NANI 2025">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mimétisme : Monarque et Vice-Roi</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                background-color: #f4f4f9;
+                color: #333;
+                padding: 20px;
+            }
+            h1 {
+                color: #d2691e;
+            }
+            .emoji {
+                font-size: 1.2em;
+            }
+            .section {
+                margin-bottom: 20px;
+            }
+             #printBtn {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background-color: #1abc9c;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 10px;
+                font-size: 16px;
+                cursor: pointer;
+                z-index: 9999;
+            }
+            @media print {
+                #printBtn, button.show-answer {
+                    display: none;
+                }
+                .correction, .quiz-answer {
+                    display: block !important;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    <button id="printBtn" onclick="window.print()">🖨️ Imprimer / Exporter en PDF</button>
+    
+    <h1>🦋 Mimétisme des papillons <i>Monarque</i> et <i>Vice-Roi</i></h1>
+
+        <div class="section">
+            <p><strong>Parlons papillons ^^</strong> : imagine à gauche le monarque, visuellement très semblable au vice-roi à droite. Le monarque est un papillon qui, à cause de son alimentation à l'état de chenille, est toxique pour les prédateurs qui oseraient le manger. Cependant, le vice-roi est totalement inoffensif.</p>
+            
+            <div>
+                <img src="papillons.jpg" alt="à gauche : le paillon Monarque. à droite : le papillon Vice-Roi. apparences semblables"/>
+            </div>
+
+            <p><strong>Explique pourquoi l'apparence du vice-roi est-elle si proche de celui du monarque d'un point de vue évolutif ?</strong></p>
+        </div>
+
+        <div class="section">
+            <p>Ah, les papillons monarque et vice-roi 🦋🧡 — c’est un exemple parfait pour parler d’évolution et de stratégie de survie ! Voici ce qui se passe, expliqué clairement avec un point de vue évolutif :</p>
+        </div>
+
+        <div class="section">
+            <p>🧬 <strong>Le phénomène s'appelle : mimétisme (batésien)</strong></p>
+            <ul>
+                <li>Le monarque est toxique car il mange des plantes appelées asclépiades lorsqu’il est chenille.</li>
+                <li>Résultat : s’il est mangé, il rend malade les prédateurs (comme les oiseaux).</li>
+                <li>Les prédateurs apprennent vite : « Ce papillon orange et noir = beurk ! Ne pas toucher. »</li>
+                <li>Le vice-roi, lui, n’est pas toxique, mais il ressemble beaucoup au monarque, surtout de loin !</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <p>🧠 <strong>Alors, que se passe-t-il ?</strong></p>
+            <p>Grâce à son apparence, le vice-roi profite de la mauvaise réputation du monarque :<br>
+                Les oiseaux évitent TOUS les papillons qui ressemblent au monarque. Du coup, le vice-roi est moins souvent attaqué, même s’il est inoffensif.</p>
+        </div>
+
+        <div class="section">
+            <p>🔁 <strong>Et l'évolution dans tout ça ?</strong></p>
+            <ul>
+                <li>Il y a longtemps, il existait des papillons inoffensifs avec des motifs variés.</li>
+                <li>Par hasard, certains ressemblaient un peu au monarque.</li>
+                <li>Ces papillons survivaient mieux car les prédateurs les évitaient.</li>
+                <li>Ils ont eu plus de descendants avec le même aspect.</li>
+                <li>Génération après génération, leur apparence s’est rapprochée du monarque.</li>
+            </ul>
+            <p><strong>Résultat</strong> : aujourd’hui, le vice-roi est un excellent imitateur du monarque, même s’il est totalement inoffensif.</p>
+        </div>
+
+        <div class="section">
+            <p>🧠 <strong>En résumé :</strong></p>
+            <p>Le vice-roi imite le monarque pour tromper les prédateurs et éviter d’être mangé.<br>
+                C’est une adaptation évolutive appelée <em>mimétisme batésien</em> : un inoffensif imite un dangereux pour survivre.</p>
+        </div>
+
+    </body>
+</html>
