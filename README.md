@@ -5,6 +5,8 @@
 
 [génétique, exercices interactifs](https://inani27.github.io/secondAIR/sciences-4A/exercices_genetique.html)
 
+[Evolution : mimétisme](https://inani27.github.io/secondAIR/sciences-4A/mimetisme-papillons.html)
+
 ## Table de vocabulaire interactive
 .1 clic fait apparaître la réponse.
 
